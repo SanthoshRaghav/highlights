@@ -1149,10 +1149,7 @@
     "id": "90e7f70f-ae6e-4963-8290-a81282099158",
     "metadata": {
       "createdAt": 1786759912674,
-      "selectedText": "Method 2: Check the shell currently running\nRun:\n\necho $0\nYou might see:\n\n-zsh\nor\n\nbash",
-      "tags": [
-        "added"
-      ]
+      "selectedText": "Method 2: Check the shell currently running\nRun:\n\necho $0\nYou might see:\n\n-zsh\nor\n\nbash"
     },
     "scope": "chatgpt:6a425d3b-60d0-83ee-a570-31f6a83e5d31",
     "target": {
