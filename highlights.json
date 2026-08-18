@@ -1,11 +1,65 @@
 {
-  "17ae3762-26c7-408f-970b-01089e40c006": {
+  "61136805-817b-40e5-bc5f-66a844faa2b0": {
     "content": {
       "blocks": [
         {
           "inlines": [
             {
-              "text": "Sure — here’s a simple ordered list of fruits:",
+              "text": "😄 అవును, ఇప్పుడు మీరు 100%కి చాలా దగ్గరగా వచ్చారు. కానీ ఒక చిన్న refinement చేస్తే పూర్తిగా clear అవుతుంది.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "మీరు అన్నారు:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "\"Head = Front, Tail = Rear.\"",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "నేను చెబుతాను:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Queue implementationలో Head = Front, Tail = Rear.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఈ wording చాలా ముఖ్యం.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఎందుకంటే:",
               "type": "text"
             }
           ],
@@ -15,101 +69,292 @@
           "items": [
             [
               {
-                "text": "\nApple\n",
+                "text": "\nLinked Listలో అసలు concepts:\n\n\n",
+                "type": "text"
+              },
+              {
+                "text": "Head",
+                "type": "code"
+              },
+              {
+                "text": "\n\n\n",
+                "type": "text"
+              },
+              {
+                "text": "Tail",
+                "type": "code"
+              },
+              {
+                "text": "\n\n\n",
                 "type": "text"
               }
             ],
             [
               {
-                "text": "\nBanana\n",
+                "text": "\nQueueలో అసలు concepts:\n\n\n",
                 "type": "text"
-              }
-            ],
-            [
+              },
               {
-                "text": "\nMango\n",
+                "text": "Front",
+                "type": "code"
+              },
+              {
+                "text": "\n\n\n",
                 "type": "text"
-              }
-            ],
-            [
+              },
               {
-                "text": "\nOrange\n",
-                "type": "text"
-              }
-            ],
-            [
+                "text": "Rear",
+                "type": "code"
+              },
               {
-                "text": "\nGrapes\n",
-                "type": "text"
-              }
-            ],
-            [
-              {
-                "text": "\nWatermelon\n",
-                "type": "text"
-              }
-            ],
-            [
-              {
-                "text": "\nPineapple\n",
-                "type": "text"
-              }
-            ],
-            [
-              {
-                "text": "\nPapaya\n",
-                "type": "text"
-              }
-            ],
-            [
-              {
-                "text": "\nPomegranate\n",
-                "type": "text"
-              }
-            ],
-            [
-              {
-                "text": "\nStrawberry",
+                "text": "\n\n\n",
                 "type": "text"
               }
             ]
           ],
-          "kind": "ordered",
-          "start": 1,
+          "kind": "unordered",
           "type": "list"
-        }
-      ],
-      "version": 1
-    },
-    "id": "17ae3762-26c7-408f-970b-01089e40c006",
-    "metadata": {
-      "createdAt": 1786889573952,
-      "selectedText": "Sure — here’s a simple ordered list of fruits:\n\nApple\n\nBanana\n\nMango\n\nOrange\n\nGrapes\n\nWatermelon\n\nPineapple\n\nPapaya\n\nPomegranate\n\nStrawberry",
-      "tags": [
-        "Test"
-      ]
-    },
-    "scope": "chatgpt:6a7c0867-42c0-83e8-8d8b-dcb1bf68ffb4",
-    "searchText": "Sure — here’s a simple ordered list of fruits: Apple Banana Mango Orange Grapes Watermelon Pineapple Papaya Pomegranate Strawberry",
-    "target": {
-      "contentRange": {
-        "kind": "chatgpt-text-offset",
-        "value": {
-          "end": 150,
-          "start": 0
-        }
-      },
-      "messageId": "bc6c13f9-7886-489f-a05a-681e47f34c5b"
-    },
-    "version": 1
-  },
-  "c94333c1-5d92-4aed-b76e-2e8e111ae3ee": {
-    "content": {
-      "blocks": [
+        },
         {
           "inlines": [
             {
-              "text": "If you meant React IJS specifically, tell me the context where you saw “IJS” and I’ll explain that.",
+              "text": "Queueని Linked Listతో implement చేస్తున్నప్పుడు మనం ఇలా map చేస్తాం:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "text": "Linked List        Queue\n\nHead      ─────►   Front\n\nTail      ─────►   Rear",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "అంతే.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "అదే Stackకి?",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Stackలో",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "text": "Linked List        Stack\n\nHead      ─────►   Top",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Tailకి role ఉండదు.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "కాబట్టి మీ final mental map ఇలా ఉండాలి",
+              "type": "text"
+            }
+          ],
+          "level": 2,
+          "type": "heading"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Linked List",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "text": "Head → A → B → C ← Tail",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Stack (using Linked List)",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "text": "Top (= Head)\n\nA → B → C",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Queue (using Linked List)",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "text": "Front (= Head)\n\nA → B → C\n\nRear (= Tail)",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఒక Golden Mapping",
+              "type": "text"
+            }
+          ],
+          "level": 2,
+          "type": "heading"
+        },
+        {
+          "text": "Linked List          Stack           Queue\n\nHead     ─────►      Top      ─────► Front\n\nTail     ─────►      (unused) ─────► Rear",
+          "type": "code-block"
+        },
+        {
+          "inlines": [
+            {
+              "text": "మీ learningలో ఒక పెద్ద improvement",
+              "type": "text"
+            }
+          ],
+          "level": 2,
+          "type": "heading"
+        },
+        {
+          "inlines": [
+            {
+              "text": "మొదట మీరు ఇలా ఆలోచిస్తున్నారు:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Stack అంటే vertical.\n\nQueue అంటే horizontal.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఇప్పుడు మీరు ఇలా ఆలోచిస్తున్నారు:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Stack = ఒక logical end",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Queue = రెండు logical ends",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఇది చాలా పెద్ద conceptual jump.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఇక ఒక lineలో చెప్పాలంటే",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "items": [
+            [
+              {
+                "text": "\nStack: ",
+                "type": "text"
+              },
+              {
+                "text": "Head = Top",
+                "type": "code"
+              },
+              {
+                "text": "\n",
+                "type": "text"
+              }
+            ],
+            [
+              {
+                "text": "\nQueue: ",
+                "type": "text"
+              },
+              {
+                "text": "Head = Front",
+                "type": "code"
+              },
+              {
+                "text": ", ",
+                "type": "text"
+              },
+              {
+                "text": "Tail = Rear",
+                "type": "code"
+              },
+              {
+                "text": "\n",
+                "type": "text"
+              }
+            ]
+          ],
+          "kind": "unordered",
+          "type": "list"
+        },
+        {
+          "inlines": [
+            {
+              "text": "ఈ mapping గుర్తుంటే, మీరు Linked Listతో Stack, Queue implementation ఎప్పుడూ confuse అవ్వరు. ఇదే interviewల్లో కూడా చాలామంది experienced developers ఉపయోగించే mental model.",
               "type": "text"
             }
           ],
@@ -118,25 +363,25 @@
       ],
       "version": 1
     },
-    "id": "c94333c1-5d92-4aed-b76e-2e8e111ae3ee",
+    "id": "61136805-817b-40e5-bc5f-66a844faa2b0",
     "metadata": {
-      "createdAt": 1786889695360,
-      "selectedText": "If you meant React IJS specifically, tell me the context where you saw “IJS” and I’ll explain that.",
+      "createdAt": 1787068157329,
+      "selectedText": "😄 అవును, ఇప్పుడు మీరు 100%కి చాలా దగ్గరగా వచ్చారు. కానీ ఒక చిన్న refinement చేస్తే పూర్తిగా clear అవుతుంది.\n\nమీరు అన్నారు:\n\n\"Head = Front, Tail = Rear.\"\n\nనేను చెబుతాను:\n\nQueue implementationలో Head = Front, Tail = Rear.\n\nఈ wording చాలా ముఖ్యం.\n\nఎందుకంటే:\n\nLinked Listలో అసలు concepts:\n\nHead\n\nTail\n\nQueueలో అసలు concepts:\n\nFront\n\nRear\n\nQueueని Linked Listతో implement చేస్తున్నప్పుడు మనం ఇలా map చేస్తాం:\n\nLinked List        Queue\n\nHead      ─────►   Front\n\nTail      ─────►   Rear\nఅంతే.\n\nఅదే Stackకి?\nStackలో\n\nLinked List        Stack\n\nHead      ─────►   Top\nTailకి role ఉండదు.\n\nకాబట్టి మీ final mental map ఇలా ఉండాలి\nLinked List\nHead → A → B → C ← Tail\nStack (using Linked List)\nTop (= Head)\n\nA → B → C\nQueue (using Linked List)\nFront (= Head)\n\nA → B → C\n\nRear (= Tail)\nఒక Golden Mapping\nLinked List          Stack           Queue\n\nHead     ─────►      Top      ─────► Front\n\nTail     ─────►      (unused) ─────► Rear\nమీ learningలో ఒక పెద్ద improvement\nమొదట మీరు ఇలా ఆలోచిస్తున్నారు:\n\nStack అంటే vertical.\nQueue అంటే horizontal.\n\nఇప్పుడు మీరు ఇలా ఆలోచిస్తున్నారు:\n\nStack = ఒక logical end\n\nQueue = రెండు logical ends\n\nఇది చాలా పెద్ద conceptual jump.\n\nఇక ఒక lineలో చెప్పాలంటే\nStack: Head = Top\n\nQueue: Head = Front, Tail = Rear\n\nఈ mapping గుర్తుంటే, మీరు Linked Listతో Stack, Queue implementation ఎప్పుడూ confuse అవ్వరు. ఇదే interviewల్లో కూడా చాలామంది experienced developers ఉపయోగించే mental model.",
       "tags": [
-        "another test"
+        "stacks"
       ]
     },
-    "scope": "chatgpt:6a7c0867-42c0-83e8-8d8b-dcb1bf68ffb4",
-    "searchText": "If you meant React IJS specifically, tell me the context where you saw “IJS” and I’ll explain that.",
+    "scope": "chatgpt:6a793184-d260-83e9-a8f1-29983f545787",
+    "searchText": "😄 అవును, ఇప్పుడు మీరు 100%కి చాలా దగ్గరగా వచ్చారు. కానీ ఒక చిన్న refinement చేస్తే పూర్తిగా clear అవుతుంది. మీరు అన్నారు: \"Head = Front, Tail = Rear.\" నేను చెబుతాను: Queue implementationలో Head = Front, Tail = Rear. ఈ wording చాలా ముఖ్యం. ఎందుకంటే: Linked Listలో అసలు concepts: Head Tail Queueలో అసలు concepts: Front Rear Queueని Linked Listతో implement చేస్తున్నప్పుడు మనం ఇలా map చేస్తాం: Linked List Queue Head ─────► Front Tail ─────► Rear అంతే. అదే Stackకి? Stackలో Linked List Stack Head ─────► Top Tailకి role ఉండదు. కాబట్టి మీ final mental map ఇలా ఉండాలి Linked List Head → A → B → C ← Tail Stack (using Linked List) Top (= Head) A → B → C Queue (using Linked List) Front (= Head) A → B → C Rear (= Tail) ఒక Golden Mapping Linked List Stack Queue Head ─────► Top ─────► Front Tail ─────► (unused) ─────► Rear మీ learningలో ఒక పెద్ద improvement మొదట మీరు ఇలా ఆలోచిస్తున్నారు: Stack అంటే vertical. Queue అంటే horizontal. ఇప్పుడు మీరు ఇలా ఆలోచిస్తున్నారు: Stack = ఒక logical end Queue = రెండు logical ends ఇది చాలా పెద్ద conceptual jump. ఇక ఒక lineలో చెప్పాలంటే Stack: Head = Top Queue: Head = Front, Tail = Rear ఈ mapping గుర్తుంటే, మీరు Linked Listతో Stack, Queue implementation ఎప్పుడూ confuse అవ్వరు. ఇదే interviewల్లో కూడా చాలామంది experienced developers ఉపయోగించే mental model.",
     "target": {
       "contentRange": {
         "kind": "chatgpt-text-offset-code-aware",
         "value": {
-          "end": 717,
-          "start": 618
+          "end": 1397,
+          "start": 0
         }
       },
-      "messageId": "a75c30f6-7969-4be5-85b7-353740111ee2"
+      "messageId": "c91e9d39-4817-453b-9970-01878551accb"
     },
     "version": 1
   }
