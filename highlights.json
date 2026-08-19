@@ -1,4 +1,87 @@
 {
+  "5395b96b-7305-4792-9e7c-f8225bfc28e6": {
+    "content": {
+      "blocks": [
+        {
+          "inlines": [
+            {
+              "text": "Queueకి fundamental rules:",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "inlines": [
+            {
+              "text": "Enqueue → Rear\n\nDequeue → Front",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "version": 1
+    },
+    "id": "5395b96b-7305-4792-9e7c-f8225bfc28e6",
+    "metadata": {
+      "createdAt": 1787134526653,
+      "selectedText": "Queueకి fundamental rules:\n\nEnqueue → Rear\nDequeue → Front",
+      "tags": [
+        "queue"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "Queueకి fundamental rules: Enqueue → Rear Dequeue → Front",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 172,
+          "start": 114
+        }
+      },
+      "messageId": "5c4e6584-1e74-490b-b1d3-abcc671f6e6d"
+    },
+    "version": 1
+  },
+  "5e830401-d432-4bf9-8abe-bf48c56b764c": {
+    "content": {
+      "blocks": [
+        {
+          "inlines": [
+            {
+              "text": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "version": 1
+    },
+    "id": "5e830401-d432-4bf9-8abe-bf48c56b764c",
+    "metadata": {
+      "createdAt": 1787134558430,
+      "selectedText": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+      "tags": [
+        "stacks"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 249,
+          "start": 106
+        }
+      },
+      "messageId": "daf2f3f3-8bce-48cb-9b63-9485f83e9546"
+    },
+    "version": 1
+  },
   "61136805-817b-40e5-bc5f-66a844faa2b0": {
     "content": {
       "blocks": [
@@ -382,6 +465,43 @@
         }
       },
       "messageId": "c91e9d39-4817-453b-9970-01878551accb"
+    },
+    "version": 1
+  },
+  "dda87a32-3b1d-4824-b127-844a09e5ca97": {
+    "content": {
+      "blocks": [
+        {
+          "inlines": [
+            {
+              "text": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "version": 1
+    },
+    "id": "dda87a32-3b1d-4824-b127-844a09e5ca97",
+    "metadata": {
+      "createdAt": 1787134554400,
+      "selectedText": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+      "tags": [
+        "queue"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "ఏ endని use చేయాలి అనేది fixed కాదు; implementationలో ఏ endని choose చేస్తే required operations efficientగా ఉంటాయో దాని ఆధారంగా decide చేస్తాం.",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 249,
+          "start": 106
+        }
+      },
+      "messageId": "daf2f3f3-8bce-48cb-9b63-9485f83e9546"
     },
     "version": 1
   }
