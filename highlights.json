@@ -36,6 +36,38 @@
     },
     "version": 1
   },
+  "117e970b-989a-433a-a5b7-8a8a52bcc443": {
+    "content": {
+      "blocks": [
+        {
+          "text": "**Lookup Table**\n\nA lookup table is a collection of key → value associations that allows\nefficient retrieval of the value associated with a given key.\n\nTo implement a lookup table, we can use:\n\n- a **hash map / hash table**, or\n- an **object** (in languages that support dynamic key-value properties)\n\n### Key Concepts\n\n- A **hash map / hash table** is a fundamental data structure in\n  computer science.\n- A **map** (dictionary, associative array) provides a key → value\n  mapping abstraction.\n- When a map is implemented using hashing, it can provide efficient\n  average-case key-based lookup (typically O(1)).\n\n### Practical Choice\n\nThe choice between an object and a dedicated hash map depends on\nthe language, context, and required operations:\n\n- **Small, static, known-ahead-of-time mappings** (e.g. 10–15 entries)\n  + a language with a lightweight object/record construct\n  → using an object can be perfectly reasonable and common.\n\n- **A collection whose primary purpose is key → value lookup**\n  → a map/dictionary is the more explicit abstraction.\n\n- **When that map uses hashing**\n  → it is a hash map / hash table and can provide average O(1)\n  key-based lookup under typical conditions.\n\n### Conceptual Takeaway\n\n- You *can* implement a lookup table using an object.\n- A map/dictionary is the direct abstraction for a collection of\n  key → value associations.\n- A hash map / hash table is a hash-based implementation that\n  provides efficient key-based lookup.",
+          "type": "code-block"
+        }
+      ],
+      "version": 1
+    },
+    "id": "117e970b-989a-433a-a5b7-8a8a52bcc443",
+    "metadata": {
+      "createdAt": 1787226965538,
+      "selectedText": "**Lookup Table**\n\nA lookup table is a collection of key → value associations that allows\nefficient retrieval of the value associated with a given key.\n\nTo implement a lookup table, we can use:\n\n- a **hash map / hash table**, or\n- an **object** (in languages that support dynamic key-value properties)\n\n### Key Concepts\n\n- A **hash map / hash table** is a fundamental data structure in\n  computer science.\n- A **map** (dictionary, associative array) provides a key → value\n  mapping abstraction.\n- When a map is implemented using hashing, it can provide efficient\n  average-case key-based lookup (typically O(1)).\n\n### Practical Choice\n\nThe choice between an object and a dedicated hash map depends on\nthe language, context, and required operations:\n\n- **Small, static, known-ahead-of-time mappings** (e.g. 10–15 entries)\n  + a language with a lightweight object/record construct\n  → using an object can be perfectly reasonable and common.\n\n- **A collection whose primary purpose is key → value lookup**\n  → a map/dictionary is the more explicit abstraction.\n\n- **When that map uses hashing**\n  → it is a hash map / hash table and can provide average O(1)\n  key-based lookup under typical conditions.\n\n### Conceptual Takeaway\n\n- You *can* implement a lookup table using an object.\n- A map/dictionary is the direct abstraction for a collection of\n  key → value associations.\n- A hash map / hash table is a hash-based implementation that\n  provides efficient key-based lookup.",
+      "tags": [
+        "hashmap"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "**Lookup Table** A lookup table is a collection of key → value associations that allows efficient retrieval of the value associated with a given key. To implement a lookup table, we can use: - a **hash map / hash table**, or - an **object** (in languages that support dynamic key-value properties) ### Key Concepts - A **hash map / hash table** is a fundamental data structure in computer science. - A **map** (dictionary, associative array) provides a key → value mapping abstraction. - When a map is implemented using hashing, it can provide efficient average-case key-based lookup (typically O(1)). ### Practical Choice The choice between an object and a dedicated hash map depends on the language, context, and required operations: - **Small, static, known-ahead-of-time mappings** (e.g. 10–15 entries) + a language with a lightweight object/record construct → using an object can be perfectly reasonable and common. - **A collection whose primary purpose is key → value lookup** → a map/dictionary is the more explicit abstraction. - **When that map uses hashing** → it is a hash map / hash table and can provide average O(1) key-based lookup under typical conditions. ### Conceptual Takeaway - You *can* implement a lookup table using an object. - A map/dictionary is the direct abstraction for a collection of key → value associations. - A hash map / hash table is a hash-based implementation that provides efficient key-based lookup.",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 2469,
+          "start": 1037
+        }
+      },
+      "messageId": "dfabcbe2-fe12-4c1f-9874-498c2d04dda8"
+    },
+    "version": 1
+  },
   "1654b7ea-c97b-4b4b-a199-994886efb191": {
     "content": {
       "blocks": [
@@ -1841,6 +1873,48 @@
     },
     "version": 1
   },
+  "479dfc7d-7093-4088-995d-145f0768da58": {
+    "content": {
+      "blocks": [
+        {
+          "inlines": [
+            {
+              "text": "My recommended final version",
+              "type": "text"
+            }
+          ],
+          "level": 2,
+          "type": "heading"
+        },
+        {
+          "text": "LOOKUP TABLE\n\nA lookup table is a data structure or mechanism that stores a collection\nof key → value associations and allows us to efficiently retrieve the\nvalue associated with a known key.\n\nA lookup table can be implemented using different data structures,\ndepending on the language and requirements.\n\n- Hash Table / HashMap is a fundamental data structure in computer science.\n- It stores key → value associations.\n- Hashing is used to efficiently determine where the associated\n  key-value pair can be found.\n- This provides average O(1) key-based lookup under typical conditions.\n\nPractical choice depends on context:\n\n- For a small, static, known-ahead-of-time collection of mappings,\n  a simple language construct such as an object/record/dictionary\n  may be sufficient.\n\n- For a collection whose primary purpose is key → value lookup,\n  a Map/Dictionary is the direct abstraction. A Hash Table/HashMap\n  is a hash-based implementation that provides efficient lookup.\n\n- The exact choice depends on the language, available data structures,\n  required operations, key types, ordering requirements, and\n  performance characteristics.",
+          "type": "code-block"
+        }
+      ],
+      "version": 1
+    },
+    "id": "479dfc7d-7093-4088-995d-145f0768da58",
+    "metadata": {
+      "createdAt": 1787226779372,
+      "selectedText": "My recommended final version\nLOOKUP TABLE\n\nA lookup table is a data structure or mechanism that stores a collection\nof key → value associations and allows us to efficiently retrieve the\nvalue associated with a known key.\n\nA lookup table can be implemented using different data structures,\ndepending on the language and requirements.\n\n- Hash Table / HashMap is a fundamental data structure in computer science.\n- It stores key → value associations.\n- Hashing is used to efficiently determine where the associated\n  key-value pair can be found.\n- This provides average O(1) key-based lookup under typical conditions.\n\nPractical choice depends on context:\n\n- For a small, static, known-ahead-of-time collection of mappings,\n  a simple language construct such as an object/record/dictionary\n  may be sufficient.\n\n- For a collection whose primary purpose is key → value lookup,\n  a Map/Dictionary is the direct abstraction. A Hash Table/HashMap\n  is a hash-based implementation that provides efficient lookup.\n\n- The exact choice depends on the language, available data structures,\n  required operations, key types, ordering requirements, and\n  performance characteristics.",
+      "tags": [
+        "hashmap"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "My recommended final version LOOKUP TABLE A lookup table is a data structure or mechanism that stores a collection of key → value associations and allows us to efficiently retrieve the value associated with a known key. A lookup table can be implemented using different data structures, depending on the language and requirements. - Hash Table / HashMap is a fundamental data structure in computer science. - It stores key → value associations. - Hashing is used to efficiently determine where the associated key-value pair can be found. - This provides average O(1) key-based lookup under typical conditions. Practical choice depends on context: - For a small, static, known-ahead-of-time collection of mappings, a simple language construct such as an object/record/dictionary may be sufficient. - For a collection whose primary purpose is key → value lookup, a Map/Dictionary is the direct abstraction. A Hash Table/HashMap is a hash-based implementation that provides efficient lookup. - The exact choice depends on the language, available data structures, required operations, key types, ordering requirements, and performance characteristics.",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 2339,
+          "start": 1198
+        }
+      },
+      "messageId": "f7cef346-85b6-4a4f-92aa-2ca70d4f0d4b"
+    },
+    "version": 1
+  },
   "5395b96b-7305-4792-9e7c-f8225bfc28e6": {
     "content": {
       "blocks": [
@@ -3046,6 +3120,48 @@
         }
       },
       "messageId": "10f86363-9d62-4c8a-8ccf-0043ca04b111"
+    },
+    "version": 1
+  },
+  "b873f80b-2a23-45a2-9c63-c6c6f6823ff7": {
+    "content": {
+      "blocks": [
+        {
+          "inlines": [
+            {
+              "text": "Recommended version",
+              "type": "text"
+            }
+          ],
+          "level": 3,
+          "type": "heading"
+        },
+        {
+          "text": "Lookup Table\n\nA lookup table is a collection of key → value associations that allows us\nto efficiently retrieve the value associated with a known key.\n\nA lookup table can be implemented using an Object or a Map/HashMap,\ndepending on the language and the requirements.\n\n- HashMap / HashTable is a fundamental data structure in computer science.\n- Map provides the key → value mapping abstraction.\n- A HashMap implements a Map using hashing to efficiently locate the\n  associated key-value pair, providing average O(1) key-based lookup\n  under typical conditions.\n\nPractical choice depends on context:\n\n- Small, static, known-ahead-of-time mappings (e.g., 10–15 entries) +\n  a language with a lightweight, convenient object construct:\n  → using an Object is perfectly reasonable and common.\n\n- A dedicated collection of key → value associations with operations\n  such as get, set, delete, has, arbitrary key types, etc.:\n  → a Map is the more explicit abstraction.\n\n- If that Map is implemented using hashing:\n  → it is a HashMap / HashTable.",
+          "type": "code-block"
+        }
+      ],
+      "version": 1
+    },
+    "id": "b873f80b-2a23-45a2-9c63-c6c6f6823ff7",
+    "metadata": {
+      "createdAt": 1787225956594,
+      "selectedText": "Recommended version\nLookup Table\n\nA lookup table is a collection of key → value associations that allows us\nto efficiently retrieve the value associated with a known key.\n\nA lookup table can be implemented using an Object or a Map/HashMap,\ndepending on the language and the requirements.\n\n- HashMap / HashTable is a fundamental data structure in computer science.\n- Map provides the key → value mapping abstraction.\n- A HashMap implements a Map using hashing to efficiently locate the\n  associated key-value pair, providing average O(1) key-based lookup\n  under typical conditions.\n\nPractical choice depends on context:\n\n- Small, static, known-ahead-of-time mappings (e.g., 10–15 entries) +\n  a language with a lightweight, convenient object construct:\n  → using an Object is perfectly reasonable and common.\n\n- A dedicated collection of key → value associations with operations\n  such as get, set, delete, has, arbitrary key types, etc.:\n  → a Map is the more explicit abstraction.\n\n- If that Map is implemented using hashing:\n  → it is a HashMap / HashTable.",
+      "tags": [
+        "hashmap"
+      ]
+    },
+    "scope": "chatgpt:6a782708-5fd0-83e8-bf63-b4eabb2257f9",
+    "searchText": "Recommended version Lookup Table A lookup table is a collection of key → value associations that allows us to efficiently retrieve the value associated with a known key. A lookup table can be implemented using an Object or a Map/HashMap, depending on the language and the requirements. - HashMap / HashTable is a fundamental data structure in computer science. - Map provides the key → value mapping abstraction. - A HashMap implements a Map using hashing to efficiently locate the associated key-value pair, providing average O(1) key-based lookup under typical conditions. Practical choice depends on context: - Small, static, known-ahead-of-time mappings (e.g., 10–15 entries) + a language with a lightweight, convenient object construct: → using an Object is perfectly reasonable and common. - A dedicated collection of key → value associations with operations such as get, set, delete, has, arbitrary key types, etc.: → a Map is the more explicit abstraction. - If that Map is implemented using hashing: → it is a HashMap / HashTable.",
+    "target": {
+      "contentRange": {
+        "kind": "chatgpt-text-offset-code-aware",
+        "value": {
+          "end": 1154,
+          "start": 119
+        }
+      },
+      "messageId": "06c693ce-1dba-4a99-a4db-6d60634ddff4"
     },
     "version": 1
   },
